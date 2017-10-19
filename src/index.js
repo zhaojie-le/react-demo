@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import ClickCounter from './ClickCounter'
+// 导入ClickCounter组件，组件的命名首字母必须大写
+// import ClickCounter from './ClickCounter'
+import ControlPanel from './example1/ControlPanel'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-<ClickCounter />, 
+<ControlPanel />, 
 document.getElementById('root')
 );
 registerServiceWorker();

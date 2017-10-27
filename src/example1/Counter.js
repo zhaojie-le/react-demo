@@ -54,11 +54,12 @@ class Counter extends Component {
 }
 Counter.propTypes = {
   caption: PropTypes.string.isRequired,
-  initValue: PropTypes.number || 0
+  initValue: PropTypes.number || 0,
+  onUpdate: PropTypes.func
 }
 Counter.defaultProps = {
   initValue: 0,
   // 父子组件通信函数
-  onUpdata: f => f   // 默认是一个什么都不做的函数
+  onUpdate: f => f   // 默认是一个什么都不做的函数
 }
 export default Counter

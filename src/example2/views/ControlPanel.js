@@ -27,7 +27,7 @@ class ControlPanel extends Component {
         <Counter onUpdate={this.onCounterUpdata} caption="First" initValue={this.initN[0]}></Counter>
         <Counter onUpdate={this.onCounterUpdata} caption="Second" initValue={this.initN[1]}></Counter>
         <Counter onUpdate={this.onCounterUpdata} caption="Third" initValue={this.initN[2]}></Counter>
-        <div>total: {this.state.num}</div>
+        <div>example2 total: {this.state.num}</div>
       </div>
     );
   }

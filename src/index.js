@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Routes from './Router.js'
 
 // import { Provider } from 'react-redux';
 import './index.css';
@@ -8,7 +9,7 @@ import './index.css';
 // import ClickCounter from './ClickCounter'
 // import ControlPanel from './example1/ControlPanel'
 
-import Weather from './example-ajax/Weather.js'
+// import Weather from './example-ajax/Weather.js'
 // exapmle-redux-context
 // import store from './example-redux-context/Store.js'
 // import Provider from './example-redux-context/Provider.js'
@@ -22,8 +23,9 @@ ReactDOM.render(
 <Provider store={store}>
   <ControlPanel />
 </Provider>,
-*/
 <Weather/>,
+*/
+<Routes />,
 document.getElementById('root')
 );
 registerServiceWorker();
